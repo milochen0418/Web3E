@@ -16,7 +16,7 @@ Log debug;
 #define LOG(x) debug.println(x)
 
 Web3::Web3(const char* _host, const char* _path) {
-    client.setCACert(infura_ca_cert);
+    client.setCACert(dexscan_ca_cert);
     host = _host;
     path = _path;
 }
